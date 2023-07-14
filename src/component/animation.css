@@ -1,0 +1,53 @@
+.container {
+    position: relative;
+    /* display: inline-block; */
+    animation: slide-in 3s forwards;
+  }
+ 
+
+@keyframes slide-in {
+    0% {
+        transform: translateX(100%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(10%);
+        opacity: 1;
+    }
+}
+
+.header {
+    position: relative;
+    /* display: inline-block; */
+    animation: slide 1s forwards;
+  }
+ 
+
+@keyframes slide {
+    0% {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+.navbar {
+    position: relative;
+    
+    animation: slide1 1s forwards;
+  }
+ 
+
+@keyframes slide1 {
+    0% {
+        transform: translateY(-100%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
