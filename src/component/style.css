@@ -1,0 +1,10 @@
+.custom-image {
+  width: 100%;
+  overflow: hidden;
+  transition: transform 0.2s ease;
+  
+}
+
+.custom-image:hover {
+  transform: scale(1.4);
+}

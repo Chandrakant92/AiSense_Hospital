@@ -1,16 +1,27 @@
-import PropTypes from 'prop-types'
-import React, { Component } from 'react'
 import { NavLink } from "react-router-dom";
+import React, { Component } from 'react'
+import Footer from "./Footer";
+import Slider from "./Slider";
+import About from "./About";
 
 export class Home extends Component {
-    static propTypes = {}
 
     render() {
         return (
             <>
-            <div></div>
-               
-               
+            <div className="text-center"> Home </div>
+
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                {/* <About/> */}
+                <About/>
+                <Slider/>    
+                <br />           
+               <Footer/>
             </>
 
 
