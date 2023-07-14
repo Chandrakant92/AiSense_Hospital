@@ -1,25 +1,25 @@
-import PropTypes from 'prop-types'
-import React, { Component } from 'react'
 import { NavLink } from "react-router-dom";
 import Navbar from './Navbar';
 import Header from './header'
 import Services from './Services';
+import Slider from './Slider'
+import Footer from './Footer'
+
+ function Home () {
 
 
-export class Home extends Component {
-    static propTypes = {}
-
-    render() {
         return (
-            <>
+            <>   
                 <Navbar />
                 <Header/>
                 <Services/>
+                <Slider/>
+                <Footer/>
             </>
 
 
         )
-    }
+    
 }
 
 export default Home

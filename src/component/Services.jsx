@@ -10,6 +10,7 @@ import "swiper/css";
 import "swiper/css/pagination";
 import { Navigation, Pagination } from "swiper/modules";
 import { NavLink } from "react-router-dom";
+import Sliders from './Sliders';
 
 function Services() {
 
@@ -109,7 +110,9 @@ function Services() {
           </div>
         </div>
 
-    
+            <div>
+              <Sliders/>
+            </div>
 
     </>
 

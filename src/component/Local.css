@@ -1,0 +1,79 @@
+.images {
+    width: 100%;
+    overflow: hidden;
+    transition: transform 0.2s ease;
+    
+}
+
+.images:hover {
+    transform: scale(1.4);
+}
+
+.image-container {
+    position: relative;
+    /* display: inline-block; */
+    animation: slide-con 1s forwards;
+  }
+ 
+
+@keyframes slide-con {
+    0% {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+  
+  .image-h {
+    position: absolute;
+    top: 25%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  .image-no {
+    position: absolute;
+    top: 40%;
+    left: 29%;
+    transform: translate(-50%, -50%);
+    color: white;
+    
+  }
+  .image-b {
+    position: absolute;
+    top: 65%;
+    left: 21%;
+    transform: translate(-50%, -50%);
+    color: white;
+    cursor: pointer;
+    
+  }
+
+  .flip-animation {
+    animation: flip 1s forwards;
+    perspective: 1000px;
+    transform-style: preserve-3d;
+  }
+  
+  @keyframes flip {
+    0% {
+      transform: perspective(1000px) rotateX(0);
+    }
+    50% {
+      transform: perspective(1000px) rotateX(180deg);
+    }
+    100% {
+      transform: perspective(1000px) rotateX(360deg);
+    }
+  }
+  
+
+
+
+  
+

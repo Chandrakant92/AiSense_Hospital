@@ -1,11 +1,11 @@
 .container {
     position: relative;
     /* display: inline-block; */
-    animation: slide-in 3s forwards;
+    animation: slide-head 3s forwards;
   }
  
 
-@keyframes slide-in {
+@keyframes slide-head    {
     0% {
         transform: translateX(100%);
         opacity: 0;
