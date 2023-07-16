@@ -2,7 +2,7 @@ import React from 'react'
 import "./style.css"
 import { FcOk } from "react-icons/fc";
 
-function Sliders() {
+const Sliders = (props) => {
 
 
 
@@ -14,8 +14,8 @@ function Sliders() {
         </div>
         <div className='w-3/4 mr-60 slide-in '>
           <div className='ml-12'>
-            <h1 className='font-bold text-2xl text-indigo-800'>Orthopaedics</h1>
-            <p className='mt-8 text-base font-serif'>Orthopaedics is the branch of medicine that deals with the prevention or correction of deformities, disorders and injuries of the musculoskeletal system. Orthopaedic surgeons use a variety of techniques to treat conditions such as broken bones, torn ligaments, sprains, strains, joint problems, and congenital deformities. Orthopaedic surgery can be performed on patients of all ages, from infants to the elderly. In most cases, orthopaedic surgery is performed on an outpatient basis, which means the patient can go home the same day. However, some procedures may require a brief hospital stay. The goal of orthopaedic surgery is to restore the function and mobility of the musculoskeletal system. Orthopaedic surgeons work closely with other medical professionals, such as physical therapists, to ensure that patients receive the best possible care.</p>
+            <h1 className='font-bold text-2xl text-indigo-800'>{props.name}</h1>
+            <p className='mt-8 text-base font-serif'>{props.info}</p>
 
             <div className='mt-6'>
               <div className='flex flex-row mt-8 text-base font-serif '>

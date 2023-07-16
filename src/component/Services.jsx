@@ -18,6 +18,18 @@ function Services() {
     isFirst: true,
     isLast: false,
   });
+
+  const [id, setId]=useState('');
+  const [course, setCourse]=useState('');
+  const handleName =(name)=>{
+    console.log("wdkcvjcb " , name);
+    const course = CoursesApi.find((course) => course.name === (name));
+    console.log(course);
+    setId(name)
+    setCourse(course)
+    
+  }
+  
   const SlideRef = useRef();
 
   const handleNext = () => {
@@ -93,9 +105,10 @@ function Services() {
               return (
                 <SwiperSlide key={item.id}>
 
-                  <div className='hover:bg-[#034ea1] hover:text-white w-auto text-center rounded p-1 cursor-pointer'>
-                    {item.name}
+                  <div className='hover:bg-[#034ea1] hover:text-white w-auto text-center rounded p-1 cursor-pointer '>
+                   <button onClick={() => handleName(item.name)}> {item.name}</button>
                   </div>
+                 
 
                 </SwiperSlide>
               );
@@ -111,8 +124,13 @@ function Services() {
         </div>
 
             <div>
-              <Sliders/>
+              <Sliders  key={course.id}
+                      name={course.name}
+                      duration={course.duration}
+                      info={course.info}/>
             </div>
+
+           
 
     </>
 
