@@ -14,7 +14,7 @@ export class Navbar extends Component {
                 <div className="mx-auto max-w-7xl px-5 sm:px-6 lg:px-8 mt-6 mb-5 h-20 flex" >
                     <div className="navbar">
                         <div class="rounded-lg h-64 overflow-hidden">
-                            <img alt="content" className="object-cover object-center h-16 w-84 mr-10" src={require("../assets/logo.jpg")} />
+                            <img alt="content" className="object-cover object-center h-16 w-84 mr-10" src={"https://aisense.co.in/assets/img/logo.png"} />
                         </div>
                     </div>
                     <div className="navbar">
@@ -25,7 +25,7 @@ export class Navbar extends Component {
                         </div>
                     </div>
                     <div className="navbar">
-                        <div className='text-blue-900 font-bold mr-16 ml-4'><VscLocation className='h-14 w-16 ' />Pune baner</div>
+                        <div className='text-blue-900 font-bold mr-16 ml-4'><VscLocation className='h-14 w-16 ' />Shegaon baner</div>
                     </div>
                     
                         <div style={{ width: "2px", height: "5rem", background: "grey", marginLeft: "5rem" }}></div>

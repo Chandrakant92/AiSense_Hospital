@@ -7,7 +7,7 @@ export class Footer extends Component {
             <>
                 <footer className=" text-center bg-gradient-to-r  from-blue-900 from-10% via-sky-700 via-30% to-emerald-600 to-90% text-white" aria-labelledby="footer-heading">
 
-                    <h2 className='text-xl font-bold pt-10'>PUNE-BANER</h2>
+                    <h2 className='text-xl font-bold pt-10'>SHEGAON-BANER</h2>
                     <div className="px-5 py-12 mx-auto max-w-7xl lg:py-16 md:px-12 lg:px-20">
                         <div className="  xl:gap-8">
 
@@ -15,7 +15,7 @@ export class Footer extends Component {
                                 <div className="md:grid md:grid-cols-2 md:gap-8">
 
                                     <div className=''>
-                                        <h3 className="text-xl font-semibold  text-left uppercase">manipal hospitals</h3>
+                                        <h3 className="text-xl font-semibold  text-left uppercase">Hospitals</h3>
                                         <ul role="list" className="mt-4 text-left space-y-4">
                                             <li>
                                                 <a href="#" className="text-l font-normal hover:text-gray-900"> Doctor Enquiry: 9513631568 </a>
@@ -43,13 +43,14 @@ export class Footer extends Component {
                                         <h3 className="text-xl font-semibold   uppercase">Contact Us</h3>
                                         <ul role="list" className="mt-4 space-y-4">
                                             <li>
-                                                <a href="#" className="text-lg font-normal   hover:text-gray-900"> Manipal Hospital, <br></br>
-                                                    Mhalunge Road,<br></br>
-                                                    Baner Pune 411045 </a>
+                                                <a href="#" className="text-lg font-normal   hover:text-gray-900"> AiSense LLP, <br></br>
+                                                    SGIARC-TBI Foundation,<br></br>
+                                                    Khamgaon Road,<br></br>
+                                                     SSGMCE Campus Shegaon 444203,</a>
                                             </li>
 
                                             <li>
-                                                <a href="#" className="text-l font-normal   hover:text-gray-900"> Email: info@manipalhospitals.com </a>
+                                                <a href="#" className="text-l font-normal   hover:text-gray-900"> Email: info@aisense.com </a>
                                             </li>
 
                                             <li>
@@ -135,7 +136,7 @@ export class Footer extends Component {
 
                         <div className="mt-2 md:mt-0 md:order-1">
                             <span className="mt-1 text-lg ">
-                                2023 Manipal Hospitals. All Rights Reserved by Manipal
+                            © Copyright AiSense LLP. All Rights Reserved
                             </span>
                         </div>
                     </div>
