@@ -8,11 +8,12 @@ const Sliders = (props) => {
 
   return (
     <>
-      <div className='m-10 flex flex-row'>
-        <div className='w-40%'>
+    <div className='sliderCon'>    
+      <div className='m-10 flex flex-row  '>
+        <div className=''>
           <img src="https://www.manipalhospitals.com/campaign/hospitals/pune-baner/img/image_ortho.png" alt="..." className='flip-animation ' />
         </div>
-        <div className='w-3/4 mr-60 slide-in '>
+        <div className='w-3/4 slide-in '>
           <div className='ml-12'>
             <h1 className='font-bold text-2xl text-indigo-800'>{props.name}</h1>
             <p className='mt-8 text-base font-serif'>{props.info}</p>
@@ -36,6 +37,7 @@ const Sliders = (props) => {
             </div>
           </div>
         </div>
+      </div>
       </div>
     </>
 

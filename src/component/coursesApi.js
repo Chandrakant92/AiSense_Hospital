@@ -34,48 +34,7 @@ const Api = [
     info: `Our commitment to your health extends beyond the consultation. We offer ongoing support to help you stay on track with your wellness journey. Our consultants will be available for follow-up consultations, answer your queries, and provide guidance and motivation as you progress towards your health goals.
     `,
   },
-  {
-    id: 5,
-    name: "ENT",
-    duration: "3 Months",
-    intake: 0,
-    fees: "FREE",
-    info: ``,
-  },
-  {
-    id: 6,
-    name: "Pulmonology",
-    duration: "3 Months",
-    intake: 0,
-    fees: "FREE",
-    info: ``,
-  },
-  {
-    id: 7,
-    name: "Nephrology ",
-    duration: "3 Months",
-    intake: 0,
-    fees: "FREE",
-    info: ``,
-  },
-  {
-    id: 8,
-    name: "Urology",
-    duration: "3 Years",
-    intake: 120,
-    fees: "₹ 70,560/ Year",
-    info: `Can attend online and exam at examination centre in Amravati region
-    `,
-  },
-  {
-    id: 9,
-    name: "cancer",
-    duration: "3 Years",
-    intake: 120,
-    fees: "₹ 74,250/ Year",
-    info: `Can attend online and exam at examination centre in Amravati region
-    No-Cost add on international credit courses with Coursera`,
-  },
+  
 ];
 
 export default Api;
