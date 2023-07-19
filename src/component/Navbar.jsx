@@ -30,9 +30,9 @@ export class Navbar extends Component {
                     
                         <div style={{ width: "2px", height: "5rem", background: "grey", marginLeft: "5rem" }}></div>
                         <div className="navbar">
-                        <button class="group relative h-16 w-56 overflow-hidden ml-5 mt-2 rounded-full bg-gradient-to-l  from-blue-900 from-10% via-sky-700 via-30% to-emerald-500 to-95% ... text-s font-sans    text-white ">
+                        <button className="group relative h-16 w-56 overflow-hidden ml-5 mt-2 rounded-full bg-gradient-to-l  from-blue-900 from-10% via-sky-700 via-30% to-emerald-500 to-95% ... text-s font-sans    text-white ">
                             Book an Appointment
-                            <div class="absolute inset-0 h-full w-full scale-0 rounded-2xl transition-all duration-300 group-hover:scale-100 group-hover:bg-white/30"></div>
+                            <div className="absolute inset-0 h-full w-full scale-0 rounded-2xl transition-all duration-300 group-hover:scale-100 group-hover:bg-white/30"></div>
                         </button>
                     </div>
                 </div>
