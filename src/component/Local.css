@@ -1,4 +1,4 @@
-.images {
+/* .images {
     width: 100%;
     overflow: hidden;
     transition: transform 0.2s ease;
@@ -7,9 +7,9 @@
 
 .images:hover {
     transform: scale(1.4);
-}
+} */
 
-.image-container {
+.imageContainer {
     position: relative;
     /* display: inline-block; */
     animation: slide-con 1s forwards;
@@ -54,23 +54,7 @@
     
   }
 
-  .flip-animation {
-    animation: flip 1s forwards;
-    perspective: 1000px;
-    transform-style: preserve-3d;
-  }
-  
-  @keyframes flip {
-    0% {
-      transform: perspective(1000px) rotateX(0);
-    }
-    50% {
-      transform: perspective(1000px) rotateX(180deg);
-    }
-    100% {
-      transform: perspective(1000px) rotateX(360deg);
-    }
-  }
+
   
 
 

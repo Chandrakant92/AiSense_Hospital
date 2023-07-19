@@ -4,6 +4,7 @@ import Header from './header'
 import Services from './Services';
 import Slider from './Slider'
 import Footer from './Footer'
+import About from "./About";
 
  function Home () {
 
@@ -13,6 +14,7 @@ import Footer from './Footer'
                 <Navbar />
                 <Header/>
                 <Services/>
+                <About/>
                 <Slider/>
                 <Footer/>
             </>
